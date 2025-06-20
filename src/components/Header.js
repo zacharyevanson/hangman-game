@@ -5,7 +5,7 @@ function Header({ onHelpClick }) {
   return (
     <header className="mb-4">
       <h1>Hangman Game</h1>
-      <Button variant="info" onClick={onHelpClick}>Help</Button>
+      <Button variant="info" size='sm' className='float-end' onClick={onHelpClick}>Help</Button>
     </header>
   );
 }
